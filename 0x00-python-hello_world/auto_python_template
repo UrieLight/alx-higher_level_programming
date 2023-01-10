@@ -1,8 +1,4 @@
 #!/bin/bash
 echo "#!/usr/bin/python3" > $1
 echo $2 >> $1
-#nano $1
 chmod u+x $1
-git add .
-git commit -m $3
-git push
